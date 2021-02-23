@@ -1,3 +1,5 @@
 report zhelloworld.
 
-write / 'Hello world!'.
+data gv_name type string value 'world'.
+
+write: / 'Hello', gv_name, '!'.
